@@ -5,7 +5,7 @@ public class LoginRequest {
     private String pw;
 
     public String getId() {
-        return this.id;
+        return id;
     }
 
     public void setId(String id) {
@@ -13,7 +13,7 @@ public class LoginRequest {
     }
 
     public String getPw() {
-        return this.pw;
+        return pw;
     }
 
     public void setPw(String pw) {

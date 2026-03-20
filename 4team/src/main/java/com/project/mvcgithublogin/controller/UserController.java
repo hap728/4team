@@ -1,5 +1,6 @@
 package com.project.mvcgithublogin.controller;
 
+import com.project.mvcgithublogin.domain.User;
 import com.project.mvcgithublogin.dto.CreateUserRequest;
 import com.project.mvcgithublogin.dto.LoginRequest;
 import com.project.mvcgithublogin.service.UserService;
@@ -7,6 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.servlet.http.HttpSession;
 
 @Controller
 public class UserController {
@@ -18,18 +22,20 @@ public class UserController {
 
    @PostMapping({"/signup"})
    public String signup(@ModelAttribute CreateUserRequest request) {
-      this.userService.signup(request);
-      return "redirect:/signup";
-   }
-
-   @PostMapping({"/login"})
-   public String login(@ModelAttribute LoginRequest request) {
-      this.userService.login(request);
+      userService.signup(request);
       return "redirect:/login";
    }
 
-   @GetMapping({"/users"})
-   public String home() {
+   @PostMapping("/login")
+   public String login(@ModelAttribute LoginRequest request, HttpSession session) {
+      System.out.println("id=" + request.getId() + ", pw=" + request.getPw());
+      User user = userService.login(request);
+      session.setAttribute("loginUser", user.getId());
+      return "redirect:/index";
+   }
+
+   @GetMapping({"/index"})
+   public String index() {
       return "index";
    }
 
