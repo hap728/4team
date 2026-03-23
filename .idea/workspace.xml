@@ -4,22 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24004e2-fe64-4948-a84c-fd2d8f0b0d7f" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a590bcd1-ef00-45e5-88bd-82ed312511ea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a590bcd1-ef00-45e5-88bd-82ed312511ea/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a590bcd1-ef00-45e5-88bd-82ed312511ea/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d24004e2-fe64-4948-a84c-fd2d8f0b0d7f" name="변경" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matching.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/assets/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/jobs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/matching.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/controller/JoinController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/dto/CreateUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/mapper/UserMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/mapper/UserMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/dto/CreateUserRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/dto/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/mapper/UserMapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4team/target/classes/templates/signup.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +49,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Diemos1368"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Diemos1368&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hap728/4team.git",
-    "accountId": "2a12d8ef-feed-42fa-8a5f-486804775f08"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hap728/4team.git&quot;,
+    &quot;accountId&quot;: &quot;2a12d8ef-feed-42fa-8a5f-486804775f08&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3BCh4zQsCjsKGIxpf8nhWCWRo0k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -65,6 +85,10 @@
     "git-widget-placeholder": "feature/김홍현",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/smhrd/Desktop/kim/4team",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -84,10 +108,25 @@
       <option name="presentableId" value="Default" />
       <updated>1773998773064</updated>
       <workItem from="1773998774773" duration="279000" />
+      <workItem from="1773999067832" duration="68000" />
+      <workItem from="1774224205320" duration="769000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1773999087911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773999087911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
