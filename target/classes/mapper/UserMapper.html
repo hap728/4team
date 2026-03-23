@@ -24,4 +24,8 @@
         FROM USERS
         WHERE ID = #{id,jdbcType=VARCHAR} AND PW = #{pw,jdbcType=VARCHAR}
     </select>
+
+    <delete id="delete" >
+        DELETE USERS WHERE ID = #{id,jdbcType=VARCHAR}
+    </delete>
 </mapper>

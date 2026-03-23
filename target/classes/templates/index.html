@@ -19,7 +19,42 @@
         <a href="matching.html" data-page="matching">매칭 분석</a>
         <a href="profile.html" data-page="profile">프로필</a>
       </nav>
-      <div id="authArea" class="auth-area"><a class="auth-btn secondary" href="login.html">로그인</a><a class="auth-btn" href="signup.html">회원가입</a></div>
+      <div id="authArea" class="auth-area">
+        <!-- 로그인 안 했을 때 -->
+        <div th:if="${session.isLogin == null}">
+          <a class="auth-btn secondary" th:href="@{/login}">로그인</a>
+          <a class="auth-btn" th:href="@{/signup}">회원가입</a>
+        </div>
+
+        <!-- 로그인 했을 때 -->
+        <div th:if="${session.isLogin != null}">
+
+          <form action="/logout" method="post" style="display:inline;">
+            <button class="auth-btn secondary" type="submit">로그아웃</button>
+          </form>
+
+          <form action="/deleteuser" method="post" style="display:inline;">
+            <button class="auth-btn" type="button" onclick="deleteAccount(this)">회원탈퇴</button>
+          </form>
+
+          <script>
+            function deleteAccount(btn) {
+              if (!confirm("정말 탈퇴하시겠습니까?")) return;
+
+              const input = prompt("탈퇴를 진행하려면 '탈퇴합니다' 를 입력하세요");
+
+              if (input !== "탈퇴합니다") {
+                alert("입력이 올바르지 않습니다.");
+                return;
+              }
+
+              // 👉 버튼 기준으로 form 찾기
+              btn.closest("form").submit();
+            }
+          </script>
+
+        </div>
+      </div>
     </div>
   </header>
 
