@@ -6,45 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="d24004e2-fe64-4948-a84c-fd2d8f0b0d7f" name="변경" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/assets/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/jobs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/matching.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/controller/JoinController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/dto/CreateUserRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/dto/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/mapper/UserMapper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/java/com/project/mvcgithublogin/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/mapper/UserMapper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/src/main/resources/templates/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/dto/CreateUserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/dto/LoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/com/project/mvcgithublogin/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/mapper/UserMapper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4team/target/classes/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/mvcgithublogin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/mvcgithublogin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/mvcgithublogin/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/mvcgithublogin/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/mvcgithublogin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/mvcgithublogin/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/mvcgithublogin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/mvcgithublogin/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/mvcgithublogin/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/mvcgithublogin/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/mvcgithublogin/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/mvcgithublogin/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +47,9 @@
     &quot;accountId&quot;: &quot;2a12d8ef-feed-42fa-8a5f-486804775f08&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -72,6 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript 디버그.index.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -82,13 +72,15 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.App.executor": "Run",
-    "git-widget-placeholder": "feature/김홍현",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/smhrd/Desktop/kim/4team",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -110,6 +102,8 @@
       <workItem from="1773998774773" duration="279000" />
       <workItem from="1773999067832" duration="68000" />
       <workItem from="1774224205320" duration="769000" />
+      <workItem from="1774229082243" duration="39000" />
+      <workItem from="1774229133537" duration="8667000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

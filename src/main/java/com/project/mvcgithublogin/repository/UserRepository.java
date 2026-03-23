@@ -10,4 +10,5 @@ import java.util.Optional;
 public interface UserRepository{
    int save(User user);
    Optional<User> find(@Param("id") String id, @Param("pw") String pw);
+   int delete(@Param("id") String id);
 }

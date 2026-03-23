@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 
@@ -31,7 +31,21 @@ public class UserController {
    public String login(@ModelAttribute LoginRequest request, HttpSession session) {
       System.out.println("id=" + request.getId() + ", pw=" + request.getPw());
       User user = userService.login(request);
-      session.setAttribute("loginUser", user.getId());
+      session.setAttribute("isLogin", user.getId());
+      return "redirect:/index";
+   }
+
+   @PostMapping("/logout")
+   public String logout(HttpSession session) {
+      session.invalidate();
+      return "redirect:/index";
+   }
+
+   @PostMapping("/deleteuser")
+   public String deleteuser(HttpSession session) {
+      String id = (String) session.getAttribute("isLogin");
+      userService.delete(id);
+      session.invalidate();
       return "redirect:/index";
    }
 
@@ -47,4 +61,12 @@ public class UserController {
 
    @GetMapping({"/login"})
    public String login() { return "login"; }
+
+   // 연결 확인용
+   @GetMapping("/check")
+   @ResponseBody
+   public String check(HttpSession session) {
+      Object login = session.getAttribute("isLogin");
+      return "isLogin = " + login;
+   }
 }
