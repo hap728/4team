@@ -4,6 +4,7 @@ public class TechChart {
     private String stackname;
     private int cnt;
     private double percent;
+    private int categoryId;
 
     public String getStackname() {
         return stackname;
@@ -27,5 +28,13 @@ public class TechChart {
 
     public void setPercent(double percent) {
         this.percent = percent;
+    }
+
+    public int getCategoryId() {
+        return categoryId;
+
+    }
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
     }
 }
